@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Parks of Vietnam</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: inline-block;
+            width: 80%;
+            text-align: center; /* Center the navigation items */
+            padding: 10px; /* Add some padding around the nav */
+        }
+
+        nav img {
+            width: 10%; /* Style only the image in the nav */
+            vertical-align: middle; /* Align the image vertically */
+        }
+
+        nav a {
+            display: inline-block; /* Make the links inline-block */
+            padding: 10px; /* Add padding to the links */
+            text-decoration: none; /* Remove underlines */
+            color: #333; /* Dark gray color */
+        }
+        
+        /* Commented out original li styling */
+        /* li {
+            list-style: none;
+            display: inline;
+            margin-right: 20px;
+        } */
+
+        #main {
+            padding: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 40%); /* Two columns, each 40% */
+            justify-content: center; /* Center the grid items horizontally */
+            align-items: center; /* Center the grid items vertically */
+            row-gap: 20px; /* Add vertical gap between rows */
+            column-gap: 20px; /* Add horizontal gap between columns */
+        }
+
+        .grid img {
+            width: 100%; /* Style only the images in the grid */
+            height: auto;
+        }
+
+        .flex {
+            display: flex;
+            flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+            justify-content: center; /* Center the items horizontally */
+            gap: 20px; /* Space between flex items */
+        }
+
+        .flex img {
+            max-width: 30%; /* Set a maximum width for the images */
+            height: auto;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+        }
+
+    </style>
+</head>
+<body>
+    <a href="#main">Skip to Main Content</a>
+    <nav>
+        <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220233.png" alt="Vietnam Logo">
+        <a href="https://vietnam.travel/places-to-go/northern-vietnam/ha-noi">Home</a>
+        <a href="https://mia.vn/cam-nang-du-lich/cong-vien-thien-van-hoc-ha-noi-14971">Park</a>
+        <a href="https://vietnamtourism.gov.vn/post/36431">About</a>
+    </nav>
+
+    <main id="main">
+        <h1>Welcome to National Parks of Vietnam</h1>
+
+        <p>Vietnam boasts a diverse range of stunning national parks, from lush rainforests to breathtaking coastal landscapes. Explore the natural beauty and rich biodiversity of these protected areas.</p>
+
+        <div class="grid">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220358.png" alt="Park 1">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220352.png" alt="Park 2">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220352.png" alt="Park 3">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220343.png" alt="Park 4">
+        </div>
+
+        <div class="flex">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220343.png" alt="Park 5">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 221249.png" alt="Park 6">
+            <img src="C:\Users\Acer - PC\OneDrive\Pictures\Screenshots\Ảnh chụp màn hình 2025-02-20 220343.png" alt="Park 7">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 National Parks of Vietnam</p>
+    </footer>
+</body>
+</html>
